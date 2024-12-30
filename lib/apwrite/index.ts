@@ -4,7 +4,7 @@ import { appwriteConfig } from "./config";
 import { cookies } from "next/headers";
 
 
-export const createSesssionClient = async () => {
+export const createSessionClient = async () => {
   const client = new Client()
     .setEndpoint(appwriteConfig.endpointUrl)
     .setProject(appwriteConfig.projectId);

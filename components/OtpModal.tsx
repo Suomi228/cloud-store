@@ -61,7 +61,7 @@ const OtpModal = ({
       <AlertDialogContent className="shad-alert-dialog">
         <AlertDialogHeader className="relative flex justify-center">
           <AlertDialogTitle className="h2 text-center">
-            Enter Your OTP
+            Введите код
             <Image
               src="/assets/icons/close-dark.svg"
               alt="close"
@@ -72,7 +72,7 @@ const OtpModal = ({
             />
           </AlertDialogTitle>
           <AlertDialogDescription className="subtitle-2 text-center text-light-100">
-            We&apos;ve sent a code to{" "}
+            Код был отправлен на 
             <span className="pl-1 text-brand">{email}</span>
           </AlertDialogDescription>
         </AlertDialogHeader>
@@ -108,14 +108,14 @@ const OtpModal = ({
             </AlertDialogAction>
 
             <div className="subtitle-2 mt-2 text-center text-light-100">
-              Didn&apos;t get a code?
+              Не получили код?
               <Button
                 type="button"
                 variant="link"
                 className="pl-1 text-brand"
                 onClick={handleResendOtp}
               >
-                Click to resend
+                Отправить заново
               </Button>
             </div>
           </div>
