@@ -1,5 +1,5 @@
 import React from "react";
-// import Sort from "@/components/Sort";
+import Sort from "@/components/Sort";
 import { getFiles } from "@/lib/actions/file.actions";
 import { Models } from "node-appwrite";
 import Card from "@/components/Card";
@@ -27,7 +27,7 @@ const Page = async ({ searchParams, params }: SearchParamProps) => {
           <div className="sort-container">
             <p className="body-1 hidden text-light-200 sm:block">Sort by:</p>
 
-            {/* <Sort /> */}
+            <Sort />
           </div>
         </div>
       </section>
