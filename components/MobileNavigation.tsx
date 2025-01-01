@@ -114,7 +114,7 @@ const MobileNavigation = ({
                 width={24}
                 height={24}
               />
-              <p>Выйти</p>
+              <p>Logout</p>
             </Button>
           </div>
         </SheetContent>
